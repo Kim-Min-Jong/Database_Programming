@@ -1,4 +1,4 @@
-<%@ page import="java.sql.*"%> 
+<%@ page import="java.sql.*"%>Â 
 <%
 	Connection conn = null;	
 	PreparedStatement pstmt = null;
@@ -6,8 +6,8 @@
 	conn.setAutoCommit(false);
 	try {
 		String driver = "oracle.jdbc.driver.OracleDriver";
-		String url = "jdbc:oracle:thin:@localhost:1521:xe";
-		String user = "system";
+		String url = "";
+		String user = "";
 		String pwd = "";
 		
 		Class.forName(driver);
